@@ -29,7 +29,7 @@ DEBUG = False
 
 from pyppeteer.launcher import connect, executablePath, launch, defaultArgs  # noqa: E402; noqa: E402
 
-version = __version__
+version = "1.0.2"
 version_info = tuple(int(i) for i in version.split('.'))
 
 __all__ = [
